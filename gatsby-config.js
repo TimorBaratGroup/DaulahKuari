@@ -17,7 +17,7 @@ if (!spaceId || !accessToken) {
 
 module.exports = {
   siteMetadata: {
-    title: 'Daulah Premix',
+    title: 'Daulah Kuari',
   },
   plugins: [
     'gatsby-transformer-remark',
@@ -32,8 +32,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Daulah Premix`,
-        short_name: `DP`,
+        name: `Daulah Kuari`,
+        short_name: `DK`,
         description: `We provide granite aggregates crushed to different sizes to meet our client\'s requirements.`,
         lang: `en`,
         display: `standalone`,
